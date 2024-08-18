@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* common css end */
+
+
+#menu .main{
+    display: flex;
+    justify-content: space-between;
+}
+#menu .main .logo{
+    height: 100px;
+    width: 20%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+#menu .main .menu{
+    height: 100px;
+    width: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu .main .btn{
+    height: 100px;
+    width: 20%;
+    background-color: orange;
+}
+#menu .main .menu ul{
+    background-color: rgb(30, 224, 79);
+}
+#menu .main .menu ul{
+    display: flex;
+    /* align-items: center; */
+}
+
+
+
+#service .main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+#service .main .item{
+    width: 30%;
+    height: 200px;
+    background-color: gold;
+    margin-bottom: 30px;
+}
