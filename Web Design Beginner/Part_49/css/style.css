@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.main{
+    height: 400px;
+    width: 700px;
+    background-color: green;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
+
+
+
+
