@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/* common css end */
+
+
+#main_menu{
+    background-color: red;
+}
+#main_menu .logo{
+    width: 20%;
+    background-color: goldenrod;
+    float: left;
+}
+#main_menu .menu{
+    width: 80%;
+    background-color: blue;
+    float: left;
+}
