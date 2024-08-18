@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.main{
+    height: 500px;
+    width: 1000px;
+    background-color: red;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+}
+.item:nth-child(odd){
+    background-color: orange;
+}
+
+
