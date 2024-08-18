@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* common css end */
+
+.item{
+    width: 140px;
+    height: 350px;
+    background-color: blueviolet;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item li{
+    font-size: 13px;
+}
