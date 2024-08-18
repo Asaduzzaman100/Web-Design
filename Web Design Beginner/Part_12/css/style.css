@@ -1,0 +1,49 @@
+.main{
+    height: 400px;
+    width: 1200px;
+    background-color: red;
+}
+.left{
+    height: 400px;
+    width: 50%;
+    background-color: orange;
+    float: left;
+}
+.right{
+    height: 400px;
+    width: 50%;
+    background-color: blue;
+    float: left;
+}
+.left .left_top{
+    height: 200px;
+    background-color: plum;
+}
+.left .left_bottom{
+    height: 200px;
+    background-color: gray;
+}
+.left .left_top .left_top_left{
+    height: 200px;
+    width: 50%;
+    background-color: orange;
+    float: left;
+}
+.left .left_top .left_top_right{
+    height: 200px;
+    width: 50%;
+    background-color: green;
+    float: left;
+}
+.left .left_bottom .left_bottom_left{
+    height: 200px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+.left .left_bottom .left_bottom_right{
+    height: 200px;
+    width: 80%;
+    background-color: violet;
+    float: left;
+}
