@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.btn{
+    font-size: 20px !important;
+    padding: 9px 25px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #d50a51;
+    border: 1px solid #d50a51;
+    font-family: "Josefin Sans", sans-serif;
+    transition: .4s;
+}
+.pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+}
+.section_title{
+    position: relative;
+}
+.section_title img{
+    position: absolute;
+    left: -50px;
+    top: -23px;
+    transform: scaleX(-1);
+}
+.section_title h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 34px;
+}
+.section_title h3 span{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 34px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+
+
+
+/* ====================================== */
+        /* navbar part start */
+/* ====================================== */
+#navbar{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+}
+#navbar .main{
+    display: flex;
+    justify-content: space-between;
+}
+/* #navbar .main .logo{
+    width: 20%;
+} */
+#navbar .main .menu{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+#navbar .main .login_btn{
+    /* width: 30%; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: yellow; */
+}
+#navbar .main .menu ul{
+    display: flex;
+}
+#navbar .main a{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    transition: .4s;
+    z-index: 1;
+}
+#navbar .main ul li a img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+    transition: .4s;
+    opacity: 0;
+    z-index: -1;
+}
+#navbar .main ul li a:hover img{
+    bottom: -25px;
+    opacity: 1;
+}
+#navbar .main .menu a{
+    margin: 0 13px;
+}
+#navbar .main .menu a:hover{
+    color: #d50a51;
+}
+#navbar .main .login_btn a{
+    color: #fff;
+}
+/* ====================================== */
+        /* navbar part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* banner part start */
+/* ====================================== */
+
+#banner{
+    background: url(../images/banner_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 130px;
+}
+#banner .main{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .main .banner_img{
+    width: 48%;
+
+}
+#banner .main .banner_img img{
+    width: 100%;
+}
+#banner .main .banner_text{
+    width: 48%;
+    text-align: center;
+}
+#banner .main h2{
+    font-size: 61px;
+    font-weight: 700;
+    color: #8a5e3b;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 54px;
+    padding-top: 100px;
+}
+#banner .main h1{
+    font-size: 84px;
+    font-weight: 400;
+    color: #d50a51;
+    font-family: "Great Vibes", cursive;
+    line-height: 54px;
+}
+#banner .main p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#banner .main .btn{
+    background-color: transparent;
+    color: #d50a51;
+}
+/* ====================================== */
+        /* banner part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* history part start */
+/* ====================================== */
+
+#history{
+    padding: 100px 0;
+}
+#history .main{
+    display: flex;
+    justify-content: space-between;
+}
+#history .main .img{
+    width: 48%;
+}
+#history .main .text{
+    width: 48%;
+}
+#history .main .text .section_title{
+    margin-left: 51px; 
+}
+#history .main .text p{
+    margin-top: 56px;
+}
+#history .main .text p span{
+    display: block;
+    margin-top: 22px;
+}
+/* ====================================== */
+        /* history part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* proposal part start */
+/* ====================================== */
+#proposal{
+    margin-bottom: 200px;
+    padding-top: 88px;
+    padding-bottom: 60px;
+    background: rgb(255,245,216);
+    background: linear-gradient(90deg, rgba(255,245,216,1) 0%, rgba(255,251,228,1) 100%);
+}
+#proposal .main{
+    display: flex;
+}
+#proposal .main .text{
+    width: 60%;
+    padding-left: 100px;
+}
+#proposal .main .text p{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#proposal .main .text p span{
+    display: block;
+    margin-top: 36px;
+}
+#proposal .main .text .one:hover{
+    background-color: transparent;
+    color: #d50a51;
+}
+#proposal .main .text .two{
+    background-color: transparent;
+    color: #d50a51;
+    margin-left: 18px;
+}
+#proposal .main .text .two:hover{
+    background-color: #d50a51;
+    color: #fefefe;
+}
+#proposal .main .img{
+    width: 40%;
+    position: relative;
+}
+#proposal .main .img img{
+    position: absolute;
+    left: -199px;
+    bottom: -90px;
+}
+
+
+
+/* after before start*/
+.rony{
+    margin: 150px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+}
+/* .rony::after{
+    content: 'after';
+    color: aquamarine;
+    margin-left: 5px;
+    
+}
+.rony::before{
+    content: 'before';
+    color: aquamarine;
+    margin-right: 5px;
+} */
+.rony::before{
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -2px;
+    width: 110%;
+    height: 0%;
+    background-color: darkblue;
+    z-index: -1;
+    transition: .4s;
+}
+.rony:hover::before{
+    height: 110%;
+}
+.rony:hover{
+    color: goldenrod;
+    height: 110%;
+}
+/* after before end*/
+
+
+/* ====================================== */
+        /* proposal part end */
+/* ====================================== */
+
+
+
