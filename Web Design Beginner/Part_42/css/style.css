@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.main{
+    height: 500px;
+    width: 1200px;
+    background-color: red;
+}
+.item{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    float: left;
+    margin-right: 21px;
+}
+.item:nth-child(odd){
+    background-color: orange;
+}
+/* .item:nth-child(1){
+    background-color: orange;
+} */
+
