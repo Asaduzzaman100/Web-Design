@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* common css end */
+
+
+
+
+.container{
+    height: 50px;
+    width: 1320px;
+    margin: 0 auto;
+    background-color: red;
+}
+#main_menu{
+    height: 50px; 
+    background-color: yellowgreen;
+}
+.logo{
+    height: 50px;
+    width: 20%;
+    background-color: orange;
+    float: left;
+}
+.menu{
+    height: 50px;
+    width: 80%;
+    background-color: goldenrod;
+    float: left;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    text-align: right;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul li a{
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+    transition: .4s;
+}
+ul li a:hover{
+    color: aqua;
+}
+
+.dropdown{
+    position:absolute;
+    left: 0px;
+    top: 50px;
+    background-color: orange;
+    width: 150px;
+    text-align: left;
+    padding: 10px 0px;
+    /* opacity: 0; */
+    transition: .4s;
+    /* visibility: hidden; */
+    transform: scaleY(0);
+    transform-origin: top;
+}
+ul li:hover .dropdown{
+    /* opacity: 1; */
+    /* visibility: visible; */
+    transform: scaleY(1);
+}
+.dropdown li{
+    display: block;
+}
+.dropdown li a{
+    line-height: 35px;
+}
