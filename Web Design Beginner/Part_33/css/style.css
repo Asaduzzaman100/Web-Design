@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* common css end */
+.main{
+    margin-left: 100px;
+    width: 400px;
+    position:relative;
+}
+
+.one{
+    height: 50px;
+    background-color: red;
+}
+.two{
+    height: 50px;
+    background-color: wheat;
+}
+.three{
+    height: 50px;
+    background-color: black;
+}
+.extra{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    z-index: 2;
+}
+.extra_2{
+    height: 150px;
+    width: 150px;
+    background-color: gold;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    z-index: 1;
+}
+
+.try{
+    margin-left: 200px;
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    transform: skew(-23deg, -23deg);
+}
+.tryClippy{
+    margin-left: 200px;
+    height: 250px;
+    width: 400px;
+    background-color: yellowgreen;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
