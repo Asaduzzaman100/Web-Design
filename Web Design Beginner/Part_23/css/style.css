@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+
+
+
+
+
+/* =======================
+    navbar part start
+======================== */
+#main_menu{
+    height: 52px;
+    background-color: goldenrod;
+
+}
+
+#main_menu .logo{
+    height: 52px;
+    background-color: blue;
+    float: left;
+    width: 20%;
+}
+#main_menu .menu_links{
+    height: 52px;
+    background-color: magenta;
+    float: left;
+    width: 80%;
+}
+
+#main_menu .menu_links ul{
+    text-align: right;
+}
+
+#main_menu .menu_links ul li{
+    display: inline-block;
+    line-height: 52px;
+}
+
+#main_menu .menu_links ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: blue;
+    margin-left: 20px;
+    transition: .4s;
+}
+#main_menu .menu_links ul li a:hover{
+    color: black;
+}
+/* ========================
+     navbar part end 
+======================== */
+
+
+
+
+
+
+
+
+/* ========================
+     banner part start 
+======================== */
+#banner{
+    background: url(../images/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+#banner h1{
+    color: goldenrod;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#banner p{
+    color: #ffff;
+    font-size: 14px;
+    margin: 20px 0;
+}
+#banner a{
+    color: blue;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* ========================
+     banner part end 
+======================== */
