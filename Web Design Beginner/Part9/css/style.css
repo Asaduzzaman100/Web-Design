@@ -1,0 +1,11 @@
+h2{
+    /* using !important */
+    color: red !important;  
+}
+.one{
+    color: aqua !important;
+}
+
+.two{
+    color: orange !important;
+}
