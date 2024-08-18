@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* common css end */
+.main{
+    margin-left: 100px;
+    width: 400px;
+    position:relative;
+}
+
+.one{
+    height: 50px;
+    background-color: red;
+}
+.two{
+    height: 50px;
+    background-color: wheat;
+}
+.three{
+    height: 50px;
+    background-color: black;
+}
+.extra{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+.extra h1{
+    position: absolute;
+    /* right: 0; */
+    top: 50%;
+    transform: translateY(-50%);
+}
