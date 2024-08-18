@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+}
+/* common css end */
+
+
+
+
+h1{
+    color: darkblue;
+    background-color: gold;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+h1::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: slateblue;
+    left: 0;
+    bottom: -20px;
+    transition: .9s;
+}
+h1::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: slateblue;
+    right: 0;
+    top: -20px;
+    transition: .9s;
+}
+h1:hover::before{
+    width: 100%;
+}
+h1:hover::after{
+    width: 100%;
+}
