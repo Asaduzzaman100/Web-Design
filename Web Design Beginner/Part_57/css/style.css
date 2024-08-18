@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    width: 1120px;
+    margin: 50px auto;
+}
+
+/* common css end */
+
+
+.ludo{
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
