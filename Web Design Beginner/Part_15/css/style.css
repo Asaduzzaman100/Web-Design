@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* common css end */
+
+
+.registration{
+    width: 500px;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+input:focus{
+    border: 1px solid red;
+}
+.gender label{
+    display: inline-block;
+    font-size: 18px;
+}
+.gender input{
+    display: inline-block;
+    width: auto;
+    margin-right: 30px;
+}
+select{
+    width: 100%;
+}
+
+.check label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.check input{
+    width: auto;
+    margin-right: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+button{
+    width: 30%;
+    margin: 0 10px;
+    padding: 5px;
+    background-color: white;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+button:hover{
+    background-color: blue;
+    border: 1px solid white;
+
+}
