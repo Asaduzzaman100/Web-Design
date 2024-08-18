@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common css end */
+
+
+.main{
+    height: 500px;
+    width: 900px;
+    /* background-color: orange; */
+    background: url(../images/man.gif) no-repeat center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    left: 0;
+    top: 0;
+    animation: Chokkor 5s infinite;
+    /* transform: translate(-50%, -50%); */
+}
+.mini{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position:absolute;
+    left: 0;
+    top: 0;
+    animation: Cho 7s infinite;
+    /* transform: translate(-50%, -50%); */
+}
+@keyframes Chokkor {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 800px;
+        top: 0px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+    50%{
+        left: 800px;
+        top: 400px;
+        background-color: gold;
+    }
+    75%{
+        left: 0px;
+        top: 400px;
+        background-color: red;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: green;
+    }
+}
+@keyframes Cho {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 800px;
+        top: 0px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    50%{
+        left: 800px;
+        top: 400px;
+        background-color: green;
+    }
+    75%{
+        left: 0px;
+        top: 400px;
+        background-color: blue;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: white;
+        transform: scale(3);
+    }
+}
+.doll img{
+    height: 200px;
+}
+.doll{
+    position: absolute;
+    top: 250px;
+    right: -240px;
+    animation: up_down 3s infinite;
+}
+@keyframes up_down{
+    0%{
+        top: 200px;
+        right: -240px;
+    }
+    50%{
+        top: 300px;
+        right: -240px;
+    }
+    100%{
+        top: 200px;
+        right: -240px;
+    }
+}
+.round{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    position: absolute;
+    left: -200px;
+    bottom: 100px;
+    animation: round 3s infinite linear;
+}
+@keyframes round{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1500px;
+    height: 200px;
+    animation: wave 5s linear infinite;
+}
+.hudai{
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+@keyframes wave{
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+    50%{
+        left: 100px;
+        bottom: 0;
+    }
+    100%{
+        left: 0;
+        bottom: 0;
+    }
+}
