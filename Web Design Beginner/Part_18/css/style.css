@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 40px;
+    width: 1320px;
+    background-color: red;
+    margin: 0 auto;
+}
+#main_menu{
+    height: 40px;
+    background-color: purple;
+}
+#main_menu .logo{
+    height: 40px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+#main_menu .menu{
+    height: 40px;
+    width: 80%;
+    background-color: blue;
+    float: left;
+}
