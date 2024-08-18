@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.item{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 30px 0;
+    width: 22%;
+    text-align: center;
+}
+
+
+#barfiller_plugin{
+    margin-top: 100px;
+}
+
+#barfiller_plugin h2{
+    margin-bottom: 20px;
+    color: orangered;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#barfiller_plugin .fill{
+    background-color: orangered !important;
+    border-radius: 20px;
+}
+#barfiller_plugin .barfiller {
+    /* width: 100%; */
+    /* height: 12px; */
+    /* background: #fcfcfc; */
+    background: darkblue;
+    border: none;
+    /* border: 1px solid #ccc; */
+    /* position: relative; */
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-radius: 20px;
+    /* box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); */
+    /* -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); */
+}
+#barfiller_plugin .barfiller .tip{
+    background-color: orangered;
+}
+#barfiller_plugin .barfiller .tip:after {
+    /* border: solid; */
+    /* border-color: rgba(0,0,0,.8) transparent; */
+    border-color: orangered transparent;
+    /* border-width: 6px 6px 0 6px; */
+    /* content: ""; */
+    /* display: block; */
+    /* position: absolute; */
+    /* left: 9px; */
+    /* top: 100%; */
+    /* z-index: 9; */
+}
+
+
+
+
+.rony{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: orangered;
+    display: inline-block;
+    position: relative;
+}
+.rony::before {
+    content: '';
+    position: absolute;
+    /* height: 20px; */
+    /* width: 20px; */
+    /* background-color: black; */
+    border-top: 30px solid orangered;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    left: 35%;
+    transform: translateX(-50%);
+    bottom: -64px;
+}
+
+
+
+
+
+
+#count_down{
+    padding: 100px 0;
+    background-color: lightseagreen;
+    margin-top: 100px;
+}
+#count_down .main{
+    display: flex;
+    justify-content: space-between;
+
+}
+#count_down .main .item{
+    width: 22%;
+    padding: 30px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+#count_down .main .item h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: lightseagreen;
+}
+#count_down .main .item h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: lightseagreen;
+    margin-top: 20px;
+}
