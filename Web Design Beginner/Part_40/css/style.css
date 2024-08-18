@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+ 
+}
+img{
+    vertical-align: middle;
+}
+.pera{
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+}
+.mar{
+    margin-right: 0 !important;
+}
+.clr{
+    clear: both;
+}
+/* common css end */
+
+
+
+
+
+
+
+
+/*===============================
+        header top start 
+=================================*/
+#header_top{
+    height: 32px;
+    background-color: #0872b9;
+}
+#header_top .left{
+    width: 30%;
+    /* height: 32px;
+    background-color: red; */
+    float: left;
+}
+#header_top .right{
+    width: 70%;
+    /* height: 32px;
+    background-color: yellow; */
+    float: left;
+    text-align: right;
+}
+#header_top .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e7e7e7; 
+    line-height: 32px;
+}
+#header_top .right a i{
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 20px;
+    transition: .4s;
+}
+#header_top .right a i:hover{
+    color: #353535;
+}
+/*===============================
+          header top end 
+=================================*/
+
+
+
+
+
+
+/* <!--===============================
+            main menu start
+    =================================--> */
+    #navbar{
+        height: 80px;
+    }
+    #navbar .logo{
+        height: 80px;
+        width: 20%;
+        float: left;
+    }
+    #navbar .logo a{
+        line-height: 80px;
+    }
+    #navbar .menu_list{
+        height: 80px;
+        width: 80%;
+        float: left;
+        text-align: right;
+    }
+    #navbar .menu_list ul li{
+        display: inline-block;
+    }
+    #navbar .menu_list ul li a{
+        line-height: 80px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #353535;
+        margin-left: 14px;
+        transition: .4s;
+    }
+    #navbar .menu_list ul li a:hover{
+        color: #0872b9;
+    }
+    /* <!--===============================
+            main menu end 
+    =================================--> */
+
+
+
+
+
+
+
+
+
+
+
+
+    /*<!--===============================
+              banner start 
+    =================================--> */
+    #banner{
+        background: url(../images/banner.png) no-repeat center;
+        background-size: cover;
+        
+    }
+    #banner .banner_shadow{
+        padding: 87px 0px;
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: right;
+        
+    }
+    #banner h2{
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif;
+    }
+    #banner h1{
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 20px;
+    }
+    #banner p{
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 24px;
+        width: 454px;
+        margin: 25px 0 30px auto;
+    }
+    #banner a{
+        padding: 8px 20px;
+        border: 1px solid white;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-left: 30px;
+        transition: .4s;
+    }
+    #banner .hire{
+        border-color: #0872b9;
+        background-color: #0872b9;
+    }
+    #banner .hire:hover{
+        border-color: #ffffff;
+        background-color: transparent;
+    }
+    #banner .contact:hover{
+        border-color: #0872b9;
+        background-color: #0872b9;
+    }
+    /*<!--===============================
+               banner end 
+    =================================--> */
+
+
+
+
+
+
+
+
+
+
+/* <!-- ================ About US start ================ --> */
+    #about{
+        padding: 60px 0;
+    }
+    #about .title{
+        margin-bottom: 40px;
+    }
+    .title{
+        text-align: center;
+    }
+    .title h2{
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #353535;
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+        position: relative;
+        display: inline-block;
+    }
+    .title img{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    #about .left{
+        width: 380px;
+        margin-right: 20px;
+        float: left;
+    }
+    #about .right{
+        width: 540px;
+        float: left;
+        padding-top: 35px;
+    }
+    #about .right p span{
+        display: block;
+        margin-top: 36px;
+    }
+/* <!-- ================ About US end ================ --> */
+
+
+
+
+
+
+
+
+
+
+/* <!-- ================ OUR SERVICES part start ================ --> */
+#service{
+    padding-bottom: 60px;
+}
+#service .title{
+    margin-bottom: 68px;
+}
+#service .item{
+    width: 300px;
+    float: left;
+    padding: 50px 20px 20px 20px;
+    margin-right: 20px;
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    transition: .4s;
+}
+#service .item:hover{
+    /* -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5); */
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+}
+#service .item h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#service .item .round_1{
+    height: 81px;
+    width: 81px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+#service .item .round_2{
+    height: 75px;
+    width: 75px;
+    border: 2px solid #f1f1f1;
+    /* background-color: purple; */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+#service .item:hover .round_2{
+    /* -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5); */
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+}
+#service .item:hover .round_2{
+    border-color: #5bc5f4;
+}
+#service .item .round_3{
+    height: 67px;
+    width: 67px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+#service .item:hover .round_3{
+    background-color: #5bc5f4;
+}
+#service .item .round_3 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* <!-- ================ OUR SERVICES part end ================ --> */
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- Our Portfolio part start--> */
+#portfolio{
+    padding-bottom: 60px;
+}
+#portfolio .title{
+    margin-bottom: 30px;
+}
+#portfolio .item{
+    width: 220px;
+    float: left;
+    margin-right: 20px; 
+}
+#portfolio .item .img_s{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#portfolio .item .img_b{
+    margin-bottom: 20px;
+    position: relative;
+}
+#portfolio .item .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    transition: .4s;
+    transform: scale(0);
+}
+#portfolio .item .img_s:hover .overlay{
+    transform: scale(1);
+}
+#portfolio .item .img_b:hover .overlay{
+    transform: scale(1);
+}
+
+#portfolio .item .overlay a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#portfolio .item .overlay a i{
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;  
+    text-align: center;
+    background-color: #5bc5f4;
+}
+
+/* <!-- Our Portfolio part end--> */
+
+
+
+
+
+
+
+
+.ex{
+    height: 300px;
+    background-color: whitesmoke;
+}
