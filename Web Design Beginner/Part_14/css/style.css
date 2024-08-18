@@ -1,0 +1,19 @@
+.one{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.two{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.two .item{
+    background-color: gold;
+}
