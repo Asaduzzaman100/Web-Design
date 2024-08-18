@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: circle;
+}
+
+.dim{
+    list-style: disc;
+}
+
+a{
+    text-decoration: none;
+    background-color: red;
+    margin-top: 400px;
+    display: inline-block;
+}
+.asad{
+    text-decoration: underline; 
+}
