@@ -1,0 +1,8 @@
+@mixin heading($size, $color){
+    font-size: $size;
+    color: $color;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}

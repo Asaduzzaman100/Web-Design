@@ -1,0 +1,26 @@
+#navbar{
+    padding: 50px 0;
+    background-color: $primary_color;
+    .main{
+        display: flex;
+        .logo{
+            width: 20%;
+            a{
+                @include heading(50px, $secondary_color);
+            }
+        }
+        .menu{
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            ul{
+                display: flex;
+                a{
+                    @include heading(14px, #fff);
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+}
