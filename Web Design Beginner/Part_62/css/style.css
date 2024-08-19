@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+}
+/* common css end */
+
+#main_menu{
+    background-color: aqua !important;
+}
+#main_menu a{
+    color: aliceblue;
+}
+
+
