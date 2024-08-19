@@ -1,0 +1,13 @@
+
+
+.item{
+    height: 150px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+.item_2{
+    height: 150px;
+    background-color: darkblue;
+    margin-bottom: 20px;
+}
