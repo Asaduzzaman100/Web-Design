@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.btn{
+    font-size: 20px !important;
+    padding: 9px 25px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #d50a51;
+    border: 1px solid #d50a51;
+    font-family: "Josefin Sans", sans-serif;
+    transition: .4s;
+}
+.pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+}
+.section_title{
+    position: relative;
+}
+.section_title img{
+    position: absolute;
+    left: -50px;
+    top: -23px;
+    transform: scaleX(-1);
+}
+.section_title h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 34px;
+}
+.section_title h3 span{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 34px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+
+
+
+/* ====================================== */
+        /* navbar part start */
+/* ====================================== */
+#navbar{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+}
+#navbar .main{
+    display: flex;
+    justify-content: space-between;
+}
+/* #navbar .main .logo{
+    width: 20%;
+} */
+#navbar .main .menu{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+#navbar .main .login_btn{
+    /* width: 30%; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: yellow; */
+}
+#navbar .main .menu ul{
+    display: flex;
+}
+#navbar .main a{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    transition: .4s;
+    z-index: 1;
+}
+#navbar .main ul li a img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+    transition: .4s;
+    opacity: 0;
+    z-index: -1;
+}
+#navbar .main ul li a:hover img{
+    bottom: -25px;
+    opacity: 1;
+}
+#navbar .main .menu a{
+    margin: 0 13px;
+}
+#navbar .main .menu a:hover{
+    color: #d50a51;
+}
+#navbar .main .login_btn a{
+    color: #fff;
+}
+/* ====================================== */
+        /* navbar part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* banner part start */
+/* ====================================== */
+
+#banner{
+    background: url(../images/banner_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 130px;
+}
+#banner .main{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .main .banner_img{
+    width: 48%;
+
+}
+#banner .main .banner_img img{
+    width: 100%;
+}
+#banner .main .banner_text{
+    width: 48%;
+    text-align: center;
+}
+#banner .main h2{
+    font-size: 61px;
+    font-weight: 700;
+    color: #8a5e3b;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 54px;
+    padding-top: 100px;
+}
+#banner .main h1{
+    font-size: 84px;
+    font-weight: 400;
+    color: #d50a51;
+    font-family: "Great Vibes", cursive;
+    line-height: 54px;
+}
+#banner .main p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#banner .main .btn{
+    background-color: transparent;
+    color: #d50a51;
+}
+/* ====================================== */
+        /* banner part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* history part start */
+/* ====================================== */
+
+#history{
+    padding: 100px 0;
+}
+#history .main{
+    display: flex;
+    justify-content: space-between;
+}
+#history .main .img{
+    width: 48%;
+}
+#history .main .text{
+    width: 48%;
+}
+#history .main .text .section_title{
+    margin-left: 51px; 
+}
+#history .main .text p{
+    margin-top: 56px;
+}
+#history .main .text p span{
+    display: block;
+    margin-top: 22px;
+}
+/* ====================================== */
+        /* history part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* proposal part start */
+/* ====================================== */
+#proposal{
+    margin-bottom: 200px;
+    padding-top: 88px;
+    padding-bottom: 60px;
+    background: rgb(255,245,216);
+    background: linear-gradient(90deg, rgba(255,245,216,1) 0%, rgba(255,251,228,1) 100%);
+}
+#proposal .main{
+    display: flex;
+}
+#proposal .main .text{
+    width: 60%;
+    padding-left: 100px;
+}
+#proposal .main .text p{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#proposal .main .text p span{
+    display: block;
+    margin-top: 36px;
+}
+#proposal .main .text .one:hover{
+    background-color: transparent;
+    color: #d50a51;
+}
+#proposal .main .text .two{
+    background-color: transparent;
+    color: #d50a51;
+    margin-left: 18px;
+}
+#proposal .main .text .two:hover{
+    background-color: #d50a51;
+    color: #fefefe;
+}
+#proposal .main .img{
+    width: 40%;
+    position: relative;
+}
+#proposal .main .img img{
+    position: absolute;
+    left: -199px;
+    bottom: -90px;
+}
+
+
+
+/* after before start*/
+.rony{
+    margin: 150px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+}
+/* .rony::after{
+    content: 'after';
+    color: aquamarine;
+    margin-left: 5px;
+    
+}
+.rony::before{
+    content: 'before';
+    color: aquamarine;
+    margin-right: 5px;
+} */
+.rony::before{
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -2px;
+    width: 110%;
+    height: 0%;
+    background-color: darkblue;
+    z-index: -1;
+    transition: .4s;
+}
+.rony:hover::before{
+    height: 110%;
+}
+.rony:hover{
+    color: goldenrod;
+    height: 110%;
+}
+/* after before end*/
+
+
+/* ====================================== */
+        /* proposal part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* services part start */
+/* ====================================== */
+#services{
+    background: url(../images/banner_bg.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#services .main{
+    display: flex;
+    justify-content: space-between;
+}
+#services .main .left{
+    width: 36%;
+    /* height: 250px; */
+    /* background-color: orangered; */
+}
+#services .main .right{
+    width: 60%;
+    /* height: 250px; */
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#services .main .right .item{
+    width: 48%;
+    /* background-color: #f1f1f1; */
+    border-right: 4px solid transparent;
+    /* border-top: 4px solid transparent; */
+    border-right: 4px solid transparent;
+    padding: 40px 25px 25px 25px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .4s;
+}
+#services .main .right .item:hover{
+    border-color: #d50a51;
+    /* border-top: 4px solid yellow; */
+    background-color: #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#services .main .right .item img{
+    /* left:50%;
+    transform: translateX(-50%); */
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+#services .main .right .item h2{
+    padding-left: 40px;
+}
+/* ====================================== */
+        /* services part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* captures part start */
+/* ====================================== */
+#captures{
+    padding: 100px 0;
+}
+#captures .main{
+    display: flex;
+    justify-content: space-between;
+}
+#captures .main .left{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#captures .main .left .item{
+    width: 48%;
+    margin-bottom: 20px;
+    position: relative;
+}
+#captures .main .left .item .img img{
+    width: 100%;
+}
+#captures .main .left .item .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 25px;
+    transform: scale(0);
+    transition: .4s;
+}
+#captures .main .left .item:hover .overlay{
+    transform: scale(1);
+}
+#captures .main .left .item .overlay .icons{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#captures .main .left .item .overlay .icons a i{
+    font-size: 20px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 5px 0;
+    transition: .4s;
+}
+#captures .main .left .item .overlay .icons a i:hover{
+    background-color: #d50a51;
+    border-color: #d50a51;
+    color: #fff;
+}
+#captures .main .left .item .overlay p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#captures .main .right{
+    width: 36%;
+}
+/* ====================================== */
+        /* captures part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* countdown part start */
+/* ====================================== */
+#count_down{
+    margin-bottom: 200px;
+    background: url(../images/countdown_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#count_down .main{
+    display: flex;
+    justify-content: space-between;
+}
+/* ====================================== */
+        /* countdown part end */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================== */
+        /* testimonial part start */
+/* ====================================== */
+#testimonial{
+    margin-bottom: 100px;
+}
+#testimonial .item{
+    background-color: #fffae2;
+    padding: 20px;
+    margin: 0 20px;
+}
+#testimonial .main{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#testimonial .main .text{
+    padding-left: 30px;
+}
+#testimonial .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+#testimonial .image img{
+    width: 100%;
+
+}
+#testimonial .prev{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    transition: .4s;
+}
+#testimonial .prev:hover{
+    background-color: #d50a51;
+    color: #fff;
+}
+#testimonial .next{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    transition: .4s;
+    font-size: 20px;
+    color: #000000;
+}
+#testimonial .next:hover{
+    background-color: #d50a51;
+    color: #fff;
+}
+#testimonial .container{
+    position: relative;
+}
+#testimonial .top_icon {
+    position: absolute;
+    left: -32px;
+    top: -50px;
+}
+#testimonial .bottom_icon {
+    position: absolute;
+    right: -32px;
+    bottom: -50px;
+    transform: scale(-1);
+}
+/* ====================================== */
+        /* testimonial part end */
+/* ====================================== */
+
+
+
+
+
+
+
+/* ====================================== */
+        /* footer part start */
+/* ====================================== */
+#footer{
+    background-color: #d50a51;
+    padding-bottom: 50px;
+}
+#footer .newsletter{
+    padding: 50px 0;
+    border-radius: 100px;
+    background-color: orangered;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* ====================================== */
+        /* footer part end */
+/* ====================================== */
