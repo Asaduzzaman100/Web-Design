@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+  background-color: yellowgreen;
+  font-size: 50px;
+}
+
+.item_1 {
+  background-color: red;
+}
+
+.item_2 {
+  background-color: green;
+}
+
+.item_3 {
+  background-color: red;
+}
+
+.item_4 {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary_color : red;
+$secondary_color : green;
+// common css end
+
+
+
+h1{
+    color: black;
+    background-color: yellowgreen;
+    font-size: 50px;
+}
+
+
+.item_1{
+    background-color: $primary_color;
+}
+.item_2{
+    background-color: $secondary_color;
+}
+.item_3{
+    background-color: $primary_color;
+}
+.item_4{
+    background-color: $secondary_color;
+}
