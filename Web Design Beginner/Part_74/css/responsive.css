@@ -1,0 +1,108 @@
+/* 320 - 575 */
+/* 576 - 768 */
+/* 768 - 991 */
+/* 991 - 1199 */
+/* 1199 - 1400 */
+
+
+/* @media (min-width: 768px) and (max-width: 991.98px) { ... } */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* body{
+        display: none;
+    } */
+    /* body{
+        overflow-x: hidden;
+    } */
+    /* menu part start */
+    #main_menu img{
+        height: 50px;
+    }
+    #main_menu i{
+        color: #fff;
+    }
+    #main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #main_menu ul{
+        background-color: purple;
+        padding-bottom: 30px;
+    }
+    #main_menu ul li a{
+        display: inline-block;
+    }
+    /* menu part end */
+
+
+    /* banner part start */
+    .banner{
+        padding: 80px 0;
+    }
+    .banner .text a i {
+        font-size: 20px;
+        left: 10px;
+    }
+    .banner .text a {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        padding: 10px 5px 5px 30px;
+        display: inline-block;
+    }
+    .banner .text a:last-child{
+        margin-left: 10px;
+    }
+    .banner .text a span {
+        font-size: 15px;
+    }
+    .banner_slider .slick-dots {
+        position: absolute;
+        left: 40%;
+        top: 91%;
+        transform: translateY(-50%);
+        display: flex;
+    }
+    .banner_slider .slick-dots li button{
+        margin: 0 5px;
+    }
+    /* banner part end */
+
+
+
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 30px;
+    }
+
+    /* pricing part end */
+
+    /* .rony{
+        display: none;
+    } */
+    .rony{
+        display: block;
+    }
+
+}
+
+
+/* sm device start */
+@media (min-width: 576px) and (max-width: 768.98px){
+
+}
+/* sm device end */
+
+
+/* lg device start */
+@media (min-width: 769px) and (max-width: 991.98px){
+
+}
+/* lg device end */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+@media (min-width: 1200px) and (max-width: 1400.98px){
+
+}
