@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+// sass Variables
+$primary_color : red;
+$secondary_color : rgb(232, 238, 232);
+// common css end
+
+
+// sass Nesting start
+#main_menu{
+    background-color: $primary_color;
+    padding: 30px 0;
+    .main{
+        display: flex;
+        .logo{
+            width: 20%;
+            a{
+                font-size: 50px;
+                text-transform: uppercase;
+                font-family: sans-serif;
+                color: $secondary_color;
+                font-weight: 700;
+                text-decoration: none;
+            }
+        }
+        .menu{
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        margin-left: 20px;
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: sans-serif;
+                        color: $secondary_color;
+                        transition: .4s;
+                        position: relative;
+                        &:hover{
+                            color: black;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            bottom: -5px;
+                            height: 2px;
+                            background-color: $secondary_color;
+                            width: 0%;
+                            transition: .4s;
+                        }
+                        &:hover::after{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// sass Mixins start
+@mixin make_golla ($s,$bg) {
+    height: $s;
+    width: $s;
+    background-color: $bg;
+    border-radius: 50%;
+}
+.round_1{
+    @include make_golla(150px,$primary_color)
+}
+.round_2{
+    @include make_golla(250px,$secondary_color)
+}
