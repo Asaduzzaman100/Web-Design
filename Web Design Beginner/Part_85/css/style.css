@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 32%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: #fff;
+}
