@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* common css end */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main .item{
+    width: 30%;
+}
+.main .item img{
+    width: 100%;
+}
+
+
+
+
+.video{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.video a{
+    font-size: 50px;
+    /* background-color: yellowgreen; */
+    color: orangered;
+    text-decoration: none;
+}
+
+#video_part{
+    padding: 200px 0;
+    background-color: purple;
+}
